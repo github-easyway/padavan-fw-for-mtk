@@ -5,9 +5,6 @@ DIR=`pwd`
 . "$DIR/versions.inc"
 
 KERNELVER="3.4.x"
-if [ "$1" = "--kernel-3_0" ] ; then
-    KERNELVER="3.0.x"
-fi
 
 DO_UNPACK=YES
 DO_HEADERS=YES
@@ -25,7 +22,6 @@ fi
 ID_BINUTILS="binutils-$BINUTILSVER"
 ID_GCC="gcc-$GCCVER"
 ID_UCLIBC="uClibc-$UCLIBCVER"
-ID_TOOLCHAIN="toolchain-$KERNELVER"
 
 export LANGUAGE=en_US.UTF-8:en
 export LANG=en_US.UTF-8
@@ -33,7 +29,7 @@ export LANG=en_US.UTF-8
 export TARGET="mipsel-linux-uclibc"
 export TARGET_DIR="$DIR/src/$TARGET-toolchain"
 export ROOTDIR="$DIR"
-export PREFIX="$DIR/$ID_TOOLCHAIN"
+export PREFIX="$DIR/toolchain"
 export PATH="${PATH}:$PREFIX/bin:$PREFIX/lib"
 export CC=gcc
 
