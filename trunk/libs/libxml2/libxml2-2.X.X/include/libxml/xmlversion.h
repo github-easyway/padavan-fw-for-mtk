@@ -50,7 +50,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * extra version information, used to show a CVS compilation
  */
-#define LIBXML_VERSION_EXTRA "-GITv2.9.8-rc1-2-gd910e99c3"
+#define LIBXML_VERSION_EXTRA ""
 
 /**
  * LIBXML_TEST_VERSION:
@@ -174,7 +174,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether the FTP support is configured in
  */
-#if 1
+#if 0
 #define LIBXML_FTP_ENABLED
 #endif
 
@@ -183,7 +183,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether the HTTP support is configured in
  */
-#if 1
+#if 0
 #define LIBXML_HTTP_ENABLED
 #endif
 
@@ -210,7 +210,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether the deprecated APIs are compiled in for compatibility
  */
-#if 1
+#if 0
 #define LIBXML_LEGACY_ENABLED
 #endif
 
@@ -228,7 +228,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether the Catalog support is configured in
  */
-#if 1
+#if 0
 #define LIBXML_CATALOG_ENABLED
 #endif
 
@@ -237,7 +237,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether the SGML Docbook support is configured in
  */
-#if 1
+#if 0
 #define LIBXML_DOCB_ENABLED
 #endif
 
@@ -273,7 +273,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether iconv support is available
  */
-#if 1
+#if 0
 #define LIBXML_ICONV_ENABLED
 #endif
 
@@ -291,7 +291,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether ISO-8859-* support is made available in case iconv is not
  */
-#if 1
+#if 0
 #define LIBXML_ISO8859X_ENABLED
 #endif
 
@@ -300,7 +300,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether Debugging module is configured in
  */
-#if 1
+#if 0
 #define LIBXML_DEBUG_ENABLED
 #endif
 
@@ -405,7 +405,7 @@ XMLPUBFUN void XMLCALL xmlCheckVersion(int version);
  *
  * Whether the Lzma support is compiled in
  */
-#if 1
+#if 0
 #define LIBXML_LZMA_ENABLED
 #endif
 
